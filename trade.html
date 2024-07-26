@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cryptoin</title>
+
+    <link rel="icon" href="assets/imgs/icons/zap.svg" />
+
+    <!-- Libs Css -->
+    <link
+      href="assets/vendor/bootstrap-icons/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- ApexCharts CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/apexcharts/dist/apexcharts.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="p-3 mb-3 border-bottom">
+      <div class="">
+        <div
+          class="d-flex align-items-center justify-content-center justify-content-lg-startn header-nav-bar-content"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <img
+                class="icon-place-logo-nav"
+                src="assets/imgs/icon/icon-1.svg"
+                alt=""
+              />
+              <img
+                class="cryptoin-logo"
+                src="assets/imgs/icons/logo.svg"
+                alt=""
+              />
+            </li>
+            <li class="hi-gerald-nav">
+              <a
+                href="#"
+                style="font-size: 18px; font-weight: 600"
+                class="nav-link px-2 link-body-emphasis ms-5"
+                >Hi Gerald</a
+              >
+            </li>
+            <li class="maozinha-nav">
+              <a href="#" class="nav-link px-2 link-body-emphasis">&#x1F44B;</a>
+            </li>
+          </ul>
+          <div class="navbar-search-center">
+            <img src="assets/imgs/icons/search-lg.svg" alt="" />
+            <form
+              class="navbar-search col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3"
+              role="Search"
+            >
+              <input
+                type="search"
+                class="form-control form-control-navbar-search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+
+          <div class="send-and-receive-btn me-5">
+            <a href="#">Send & Receive</a>
+          </div>
+          <div>
+            <img
+              class="lupa-mobile-vision-nav"
+              src="assets/imgs/icons/search-lg.svg"
+              alt=""
+            />
+          </div>
+          <div class="me-3 notifications-nav-bar-icon">
+            <img src="assets/imgs/icons/bell.svg" alt="" />
+          </div>
+          <div class="dropdown navbar-profile-icon">
+            <a
+              href="#"
+              class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="assets/imgs/img/person-navbar.svg"
+                alt="mdo"
+                width="32"
+                height="32"
+                class="rounded-circle"
+              />
+            </a>
+            <div style="background-color: #fff">
+              <ul
+                class="dropdown-menu text-small drop-profile-nav"
+                style="background-color: #fff"
+              >
+                <li style="background-color: #fff">
+                  <a class="dropdown-item" href="#">New project...</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="sidebar">
+        <div class="darkmode-toggle">
+          <input type="checkbox" id="darkmode-checkbox" />
+          <label for="darkmode-checkbox" class="toggle-label">
+            <div class="illustration">
+              <img
+                src="assets/imgs/icon/light-mode.svg"
+                alt="Illustration Light"
+                class="illustration-light"
+              />
+              <img
+                src="assets/imgs/icon/dark-mode.svg"
+                alt="Illustration Dark"
+                class="illustration-dark"
+              />
+            </div>
+          </label>
+        </div>
+        <div class="menu-bar">
+          <img
+            class="menubar iconmenu-1"
+            src="assets/imgs/icon/icon-1.svg"
+            alt=""
+          />
+          <img
+            class="menubar iconmenu-2"
+            src="assets/imgs/icon/icon-2.svg"
+            alt=""
+          />
+          <img
+            class="menubar iconmenu-3"
+            src="assets/imgs/icon/icon-3.svg"
+            alt=""
+          />
+          <img
+            class="menubar iconmenu-4"
+            src="assets/imgs/icon/icon-4.svg"
+            alt=""
+          />
+          <img
+            class="menubar iconmenu-5"
+            src="assets/imgs/icon/icon-5.svg"
+            alt=""
+          />
+          <img
+            class="menubar iconmenu-6"
+            src="assets/imgs/icon/icon-6.svg"
+            alt=""
+          />
+          <img
+            class="menubar iconmenu-7"
+            src="assets/imgs/icon/line-menubar.svg"
+            alt=""
+          />
+          <img
+            class="menubar iconmenu-8"
+            src="assets/imgs/icon/icon-7.svg"
+            alt=""
+          />
+          <img
+            class="menubar iconmenu-9"
+            src="assets/imgs/icon/icon-8.svg"
+            alt=""
+          />
+        </div>
+        <div class="log-out-menubar">
+          <img src="assets/imgs/icon/log-out-01.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-dash">
+        <div class="d-flex lower-navbar">
+          <h3>Trade</h3>
+          <div class="uppers-dash">
+            <p class="btc-upper-dash">BTC <span>+12.56%</span></p>
+            <p class="eth-upper-dash">ETH <span>-04.56%</span></p>
+          </div>
+        </div>
+        <!-- my balance -->
+        <div class="d-flex">
+          
+
+          <!-- statics -->
+          <div class="col-9 badge-statistcs-trade">
+            <div class="badge-stats-bdg-border">
+              <h5 class="sts-tittle">
+                <img
+                  class="me-2"
+                  src="assets/imgs/icons/stats-icon.svg"
+                  alt=""
+                />Performance
+              </h5>
+              <div class="perform-tittle-div">
+              <p class="perform-tittle">1.342</p><span class="perform-sectittle">$0.17</span>
+            </div>
+            <div class="perform-chart-stats">
+              <p>
+                  <span>O <span class="purple-color">0.0682</span></span>
+                  <span>H <span class="yellow-color">0.0682</span></span>
+                  <span>L <span class="purple-color">0.0682</span></span>
+                  <span>C <span class="yellow-color">0.0682</span></span>
+              </p>
+            </div>
+              <div class="stats-info-dash">
+                <div class="dropdown btn-coin-selection-perform">
+                  <button
+                    class="btn dropdown-toggle in-btn-coin-selection-icon"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span class="">1M</span>
+                  </button>
+                  <ul class="dropdown-menu arrow-down-btc">
+                    <li><a class="dropdown-item" href="#">ETH</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another Coin</a>
+                    </li>
+                  </ul>
+                </div>
+                <p><img src="assets/imgs/icon/maxscreen.svg" alt="" /></p>
+                <p>
+                  <img src="assets/imgs/icon/settings-02.svg" alt="" />
+                </p>
+              </div>
+              <div id="crypto" class="p-3 crypto-chart-trade"></div>
+            </div>
+          </div>
+          <!-- fast and upgrade -->
+          <div class="col-3 fast-action-dashboard fast-accounts">
+            <div class="badge-fast-bdg-border">
+              <div class="d-flex">
+                <h5 class="fst-tittle">Accounts</h5>
+                <button>+</button>
+                <div class="accounts-trade-bagde-one">
+                  <img src="assets/imgs/img/avatar.svg" alt=""><p>Trading<br><span>12 Members</span></p></div>
+                <div class="accounts-trade-bagde-two"><img src="assets/imgs/img/letter-avatar.svg" alt=""><p>Demo<br><span>12 Members</span></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="upgrade-account">
+              <div class="badge-upgrd-bdg-border badge-accounts-border">
+                <h4>$75,981.98</h4>
+                <div class="d-flex">
+                  <img src="assets/imgs/icons/btc-icon.svg" alt="" />
+                  <p>Bitcoin</p>
+                  <p>BTC</p>
+                  <button>
+                    <img src="assets/imgs/icon/arrow-up-right.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="assets/imgs/icon/plus.svg" alt="" />
+                  </button>
+                </div>
+                <div class="d-flex">
+                  <p>Market Cap</p>
+                  <div class="mini-saldo-verde-forgot">+12.56%</div>
+                  <p>$653B</p>
+                </div>
+                <div class="d-flex">
+                  <img src="assets/imgs/icon/line-25.svg" alt="" />
+                  <img src="assets/imgs/icon/Line-26.svg" alt="" />
+                  <p>#1</p>
+                </div>
+                <div class="d-flex">
+                  <p>Volume (24)</p>
+                  <div class="mini-saldo-verde-forgot">+3.09%</div>
+                  <p>$653B</p>
+                </div>
+                <div class="d-flex">
+                  <img src="assets/imgs/icon/line-25.svg" alt="" />
+                  <img src="assets/imgs/icon/Line-26.svg" alt="" />
+                  <p>#2</p>
+                </div>
+                <div class="d-flex">
+                  <p>Supply</p>
+                  <p>$17,897.98 BTC</p>
+                </div>
+                <div class="d-flex">
+                  <img src="assets/imgs/icon/line-25.svg" alt="" />
+                  <img src="assets/imgs/icon/Line-26.svg" alt="" />
+                  <p>76,87%</p>
+                </div>
+              </div>
+            </div>
+            <!-- daily updates -->
+            <div class="upgrade-account daily-updates">
+              <div class="badge-upgrd-bdg-border badge-daily-updts">
+                <h5>Daily Updates</h5>
+                <div class="d-flex">
+                  <h4>Market Activity</h4>
+                  <button>
+                    <img src="assets/imgs/icon/arrow-up-right.svg" alt="" />
+                  </button>
+                </div>
+                <div id="courses-earnings"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Market and overview -->
+        <div class="d-flex ">
+        <h3 class="mt-4 mb-4 ">Market & Overview</h3>
+        <button>
+          <img src="assets/imgs/icon/arrow-up-right.svg" alt="" />
+        </button>
+      </div>
+      <div class="d-flex mt-2 ">
+        <div class="crypt-coins-list-final-bdg col-4 ">
+          <div class="crypt-list-border">
+          <form>
+            <ul>
+              <li> <img class="market-trade-list-1" src="assets/imgs/icon/bit-pad.svg" alt=""><span class="tittle-market-trade-1">Bitcoin</span> <span class="positive-balance-trade-1">+3.98%</span> <span class="value-market-over-1">$7.598,00</span> <p class="siglas-title-market-1">BTC</p></li>
+              <li> <img class="market-trade-list-2" src="assets/imgs/icon/eth-pad.svg" alt=""><span class="tittle-market-trade-2">Etherium</span> <span class="negative-balance-trade-2">-3.98%</span> <span class="value-market-over-2">$1.598,00</span> <p class="siglas-title-market-2">ETH</p></li>
+              <li> <img class="market-trade-list-3" src="assets/imgs/icon/ada-pad.svg" alt=""><span class="tittle-market-trade-3">Cardano</span> <span class="positive-balance-trade-3">+3.98%</span> <span class="value-market-over-3">$2.598,00</span> <p class="siglas-title-market-3">ADA</p></li>
+              <li> <img class="market-trade-list-4" src="assets/imgs/icon/sol-pad.svg" alt=""><span class="tittle-market-trade-4">Solana</span> <span class="positive-balance-trade-4">+3.98%</span> <span class="value-market-over-4">$3.598,00</span> <p class="siglas-title-market-4">SOL</p></li>
+            </ul>
+          </form>
+        </div>
+        </div>
+        <div class="crypt-coins-detail-final-bdg col-5 ">
+          <div class="crypt-detail-border">
+            <img src="assets/imgs/icon/eth-pure.svg" alt="">
+            <span>Etherium</span><img src="assets/imgs/icon/line-chart-down.svg" alt="">
+            <p>220,792.76</p><span>USDT</span>
+            <div id="ethreumChart"></div>
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+    <script src="assets/vendor/jquery-3-7/jquery-3.7.1.min.js"></script>
+
+    <!-- Lucide icons -->
+    <script src="assets/vendor/lucide-icons-0.37/lucide.min.js"></script>
+
+    <!-- Poppers -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ApexCharts JS -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- Bootstrap -->
+    <script src="assets/vendor/bootstrap-5-3/js/bootstrap.min.js"></script>
+
+    <!-- Graph -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="assets/js/trade.js"></script>
+  </body>
+</html>

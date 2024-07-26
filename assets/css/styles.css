@@ -1,0 +1,2380 @@
+:root {
+  --bg-light-color: #fff;
+  --bg-primary-theme-color: #821fff;
+  --bg-dark-color: #000;
+  --bg-gray-theme-color: #dfe1e769;
+  --bg-red-darger-color: rgb(255 59 48);
+  --bg-green-success-color: rgb(52 199 89);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-height: 100%;
+}
+@media screen and (max-width: 1652px) {
+  .send-and-receive-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 1335px) {
+  .your-name-on-navbar {
+    display: none;
+  }
+}
+@media screen and (max-width: 1525px) {
+  .navbar-search {
+    display: none;
+  }
+  .navbar-search img {
+    display: none;
+  }
+  .navbar-search-center img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .coluna-2 {
+    display: none;
+    position: relative;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1000px) {
+  .line-right-hi {
+    width: 20%;
+    position: relative;
+    top: 72px;
+    left: 170px !important;
+  }
+  .line-left-hi {
+    width: 20%;
+    position: relative;
+    top: 70px;
+    right: 170px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .icon-place-logo-nav {
+    display: none;
+  }
+  .lupa-mobile-vision-nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .cryptoin-logo {
+    display: none;
+  }
+  .hi-gerald-nav {
+    display: none;
+  }
+  .maozinha-nav {
+    display: none;
+  }
+  .navbar-profile-icon {
+    background-color: transparent !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .forgot-hi-welcome {
+    position: relative;
+    top: 10px;
+  }
+  .form-check-input {
+    position: relative;
+    top: 10px;
+  }
+  .form-check-label {
+    position: relative;
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .form-check-input {
+    /* position: relative;
+    left: 70px; */
+    display: none;
+  }
+  .form-check-label {
+    /* position: relative;
+    left: 70px; */
+    display: none;
+  }
+  .forgot-hi-welcome {
+    position: relative !important;
+  }
+}
+
+body {
+  background-color: #dfe1e769 !important;
+  height: 100vh;
+}
+.site {
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+.color-text {
+  color: #202020;
+}
+.color-success {
+  color: #0aab4d;
+}
+.color-danger {
+  color: var(--bg-red-darger-color);
+}
+.yellow-color {
+  color: var(--bs-yellow);
+}
+.purple-color {
+  color: var(--bg-primary-theme-color);
+}
+.cont-right-side {
+  height: 100vh;
+}
+.coluna-2 {
+  height: 100vh;
+}
+.item {
+  margin: 10px;
+}
+.header-dash {
+  display: flex;
+}
+.main-header {
+  background-color: var(--bg-dark-color);
+  padding-top: 5px;
+}
+.logo-on-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+.your-name-on-navbar {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 0px;
+  font-weight: 700;
+}
+.hi-gerald {
+  font-size: 20px;
+}
+.navbar-search-center {
+  display: flex;
+  position: relative;
+  right: 350px;
+  width: 50%;
+}
+.navbar-search-center img {
+  position: relative;
+  left: 30px;
+}
+.navbar-search {
+  width: 80% !important;
+}
+.form-control-navbar-search {
+  border-radius: 20px !important ;
+}
+.form-control-navbar-search::placeholder {
+  padding-left: 40px;
+}
+.navbar-search img {
+  position: absolute;
+  top: 11px;
+  left: 15px;
+}
+.form-control-navbar {
+  margin-top: 2px;
+  width: 100%;
+  height: 90%;
+  border-radius: 30px !important;
+  border: 1px solid #ccc;
+}
+.form-control-navbar::placeholder {
+  color: #999;
+  font-weight: 200;
+  padding: 0 0 0 45px;
+}
+.send-receive-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.send-receive-navbar button {
+  height: 50px;
+  width: 160px;
+
+  border-radius: 80px;
+  background-color: #821fff;
+  color: #fff;
+  border: #821fff;
+}
+.bell-notification-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+.profile-on-navbar {
+  background-color: #fff;
+  border-radius: 30px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-on-navbar img {
+  width: 43px;
+}
+.arrow-down-navbar {
+  width: 25px !important;
+  margin-left: 10px;
+}
+.container {
+  position: relative;
+  top: 100px;
+}
+.tittle-hi-welcome h1 {
+  position: relative;
+  top: 30px;
+}
+.tittle-hi-welcome {
+  width: 60%;
+}
+.tittle-hi-welcome p {
+  position: relative;
+  font-weight: 200;
+  color: #999;
+  top: 25px;
+}
+.tittle-hi-welcome img {
+  position: relative;
+}
+.tittle-hi-welcome span {
+  font-weight: 500;
+  color: #000;
+}
+.login-hi-welcome {
+  position: relative;
+  top: 60px;
+  width: 100%;
+}
+.login-hi-welcome h4 {
+  margin-left: 20%;
+}
+.email-hi-welcome {
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  width: 40px;
+}
+.password-hi-welcome {
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  width: 70px;
+}
+.sign-in-hi-display {
+  display: flex;
+  justify-content: center;
+}
+.sign-in-hi-display a {
+  text-align: center;
+  text-decoration: none;
+}
+.form-control-email-hi {
+  width: 60%;
+  border-radius: 20px;
+  padding: 5px;
+  border: 1px solid #bbb;
+}
+.y-e-hi-welcome {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+.sign-in-hi {
+  background-color: #821fff;
+  color: #fff;
+  border: #821fff;
+  border-radius: 20px;
+  padding: 7px;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.sign-in-hi-google {
+  background-color: #fff;
+  color: #000;
+  border: #fff;
+  border-radius: 20px;
+  padding: 7px;
+  width: 60%;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.sign-in-hi-google img {
+  padding-right: 10px;
+}
+.sign-in-hi-apple {
+  background-color: #fff;
+  color: #000;
+  border: #fff;
+  border-radius: 20px;
+  padding: 7px;
+  width: 60%;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.sign-in-hi-apple img {
+  padding-right: 10px;
+  position: relative;
+  right: 2px;
+}
+.form-control-email-hi::placeholder {
+  color: #999;
+  font-weight: 200;
+  padding: 0 0 0 35px !important;
+}
+.placeh-posi {
+  position: relative;
+  width: 25px;
+  left: 35px;
+}
+.hide-password-icon {
+  position: relative;
+  right: 40px;
+  width: 25px;
+  color: #fff;
+  z-index: -1;
+}
+.hide-2-password-icon {
+  position: relative;
+  right: 40px;
+  width: 25px;
+}
+
+.form-check {
+  width: 60%;
+  position: relative;
+  top: 70px;
+}
+.or-sign-with {
+  position: relative;
+  top: 98px;
+  color: #999;
+  font-size: 13px;
+}
+.form-check-input {
+  margin-left: 20%;
+}
+.form-check-input[type='checkbox']:checked {
+  background-color: #821fff;
+  border: #821fff;
+}
+.form-check-label {
+  color: #999;
+  font-weight: 200;
+}
+.forgot-hi-welcome {
+  position: absolute;
+  right: 5px;
+  color: #999;
+  text-decoration: none;
+  font-weight: 200;
+}
+.sign-in-hi-google {
+  position: relative;
+  top: 70px;
+}
+.sign-in-hi-apple {
+  position: relative;
+  top: 70px;
+}
+.dont-have-account-hi {
+  position: relative;
+  top: 120px;
+}
+.line-right-hi {
+  width: 20%;
+  position: relative;
+  top: 72px;
+  left: 130px;
+}
+.line-left-hi {
+  width: 20%;
+  position: relative;
+  top: 70px;
+  right: 130px;
+}
+.dhaa-hi-w a {
+  text-decoration: none;
+  color: #821fff;
+}
+.dhaa-pr-w a {
+  text-decoration: none;
+  color: #821fff;
+  font-weight: 500;
+}
+.policy-privacy {
+  margin-left: 20%;
+  position: relative;
+  top: 20px;
+}
+.policy-privacy p {
+  color: #999;
+  font-weight: 200;
+  font-size: 13px;
+}
+.policy-privacy a {
+  color: #000;
+  text-decoration: none;
+}
+.select-pass {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 150px;
+}
+.select-pass img {
+  position: relative;
+  bottom: 7px;
+}
+.hover-black {
+  background-color: #000;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
+  color: #fff;
+  text-align: center;
+  padding: 5px 1px 0 0;
+}
+.hover-black:hover {
+  background-color: #fff;
+  color: #000;
+  border: #000 1px solid;
+  transition: 0.4s ease-in-out;
+}
+.flex-wrap {
+  flex-wrap: nowrap !important;
+}
+.hover-white {
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  color: #000;
+  text-align: center;
+  padding: 5px 1px 0 0;
+}
+.hover-white:hover {
+  background-color: #000;
+  color: #fff;
+  border: #fff 1px solid;
+  transition: 0.4s ease-in-out;
+}
+.didnt-receive-email {
+  position: relative;
+  top: 200px;
+  margin-left: 20%;
+}
+.verification-code-form {
+  position: relative;
+  gap: 10px !important;
+}
+.verification-code-input input {
+  width: 60px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  margin: 0 3px;
+}
+.veri-code::placeholder {
+  color: #ccc;
+  text-align: center;
+}
+.verification-code-input:checked {
+  border: #821fff !important;
+}
+.set-passw-success {
+  background-color: #40c4aa22;
+  border: 1px solid #40c4aa;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  bottom: 100px;
+  width: 70%;
+  max-height: 80px;
+}
+.set-passsssw {
+  display: flex;
+}
+.password-green-not {
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 15px;
+  top: 30%;
+}
+.succ-to-cha {
+  font-weight: 600;
+  position: relative;
+  top: 10px;
+  left: 8px;
+}
+.chang-pass {
+  font-weight: 200;
+  position: relative;
+  bottom: 5px;
+  left: 5%;
+}
+.bg-badge-site {
+  position: relative;
+  top: 120px;
+}
+.bg-badge-site-forgot {
+  position: absolute;
+  top: 200px;
+  left: 40%;
+  width: 385px;
+}
+.badge-hi-tittle img {
+  z-index: 1;
+  position: relative;
+  bottom: 145px;
+  left: 5%;
+}
+.badge-hi-tittle p {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  bottom: 180px;
+  left: 20%;
+}
+.saldo-first-badge {
+  display: flex;
+  position: relative;
+  bottom: 170px;
+  left: 5%;
+}
+.saldo-seven-t {
+  font-size: 32px;
+  font-weight: 600;
+}
+.saldo-first-badge img {
+  position: relative;
+  bottom: 7px !important;
+  margin-left: 25px;
+}
+.mini-saldo-verde {
+  background-color: #40c4aa;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2px 10px 0;
+  height: 28px;
+  position: relative;
+  top: 10px;
+}
+.bitcoin-class {
+  display: flex;
+  position: relative;
+  left: 5%;
+  bottom: 160px;
+}
+.etherium-class {
+  display: flex;
+  position: relative;
+  left: 5%;
+  bottom: 135px;
+}
+.bit-coin-p1 {
+  position: relative;
+  left: 10px;
+  font-weight: 400;
+  z-index: 1;
+}
+.eth-coin-p1 {
+  position: relative;
+  left: 10px;
+  font-weight: 400;
+  z-index: 1;
+}
+.bit-coin-p2 {
+  position: relative;
+  top: 20px;
+  font-size: 13px;
+  color: #999;
+  font-weight: 200;
+  right: 40px;
+  z-index: 1;
+}
+.eth-coin-p2 {
+  position: relative;
+  top: 20px;
+  font-size: 13px;
+  color: #999;
+  font-weight: 200;
+  right: 60px;
+  z-index: 1;
+}
+.bit-coin-p3 {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  left: 50px;
+  z-index: 1;
+}
+.eth-coin-p3 {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  left: 30px;
+  z-index: 1;
+}
+.retcences {
+  background-color: #fff;
+  border-radius: 30px;
+  width: 55px;
+  height: 55px;
+  position: relative;
+  top: 177px;
+  left: 139px;
+  z-index: 1;
+}
+.retcences a {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  position: absolute;
+  left: 17px;
+  bottom: 13px;
+  z-index: 1;
+}
+.text-right-side-hi h1 {
+  position: relative;
+  bottom: 80px;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+.text-right-side-hi p {
+  position: relative;
+  bottom: 60px;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+.back-g-image {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+.bitcoin-bg-create-1 {
+  background-color: #fff;
+
+  width: 500px;
+  height: 170px;
+  border-radius: 20px;
+}
+.bitcoin-bg-create-2 {
+  background-color: #fff;
+
+  width: 500px;
+  height: 170px;
+  border-radius: 20px;
+}
+
+.bit-coin-baba-0 {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.bit-coin-baba-1 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  top: 10px;
+  left: 20px;
+}
+.bit-coin-baba-2 {
+  position: relative;
+  top: 15px;
+  left: 150px;
+}
+
+.bit-coin-baba-3 {
+  position: relative;
+  left: 60px;
+  bottom: 13px;
+  font-size: 14px;
+  color: #999;
+}
+.bit-coin-baba-4 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.bit-coin-baba-5 {
+  position: relative;
+  top: 28px;
+  left: 25px;
+  font-weight: 200;
+  font-size: 13px;
+}
+.bit-coin-baba-6 {
+  color: #40c4aa;
+  font-size: 13px;
+  font-weight: 200;
+  position: relative;
+  top: 28px;
+  left: 40px;
+}
+.bit-coin-baba-7 {
+  position: relative;
+  left: 235px;
+  bottom: 20px;
+  font-size: 13px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 20px;
+}
+.black-arrow-1 {
+  position: relative;
+  bottom: 28px;
+  left: 234px;
+}
+.bit-coin-baba-8 {
+  position: relative;
+  left: 230px;
+  bottom: 20px;
+  font-size: 13px;
+  background-color: #40c4aa;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 20px;
+}
+
+/* badge 2 */
+.eth-coin-baba-1 {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.eth-coin-baba-2 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  top: 10px;
+  left: 20px;
+}
+.eth-coin-baba-3 {
+  position: relative;
+  top: 15px;
+  left: 125px;
+}
+.eth-coin-baba-clock {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.eth-coin-baba-4 {
+  position: relative;
+  left: 60px;
+  bottom: 13px;
+  font-size: 14px;
+  color: #999;
+}
+.eth-coin-baba-5 {
+  position: relative;
+  top: 28px;
+  left: 25px;
+  font-weight: 200;
+  font-size: 13px;
+}
+.eth-coin-baba-6 {
+  color: #40c4aa;
+  font-size: 13px;
+  font-weight: 200;
+  position: relative;
+  top: 28px;
+  left: 40px;
+}
+.eth-coin-baba-7 {
+  position: relative;
+  left: 295px;
+  bottom: 20px;
+  font-size: 13px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 20px;
+}
+.black-arrow-2 {
+  position: relative;
+  bottom: 28px;
+  left: 294px;
+}
+.eth-coin-baba-8 {
+  position: relative;
+  left: 290px;
+  bottom: 20px;
+  font-size: 13px;
+  background-color: #40c4aa;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 20px;
+}
+.tittle-left-create-1 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.tittle-left-create-2 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+.badge-hi-tittle-forgot img {
+  z-index: 1;
+  position: absolute;
+  bottom: 355px;
+  left: 42%;
+  width: 40px;
+}
+.badge-hi-tittle-forgot p {
+  position: relative;
+  font-size: 23px;
+  font-weight: 700;
+  left: 143px;
+  top: 20px;
+}
+.saldo-first-badge-forgot {
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+.saldo-seven-t-forgot {
+  font-size: 36px;
+  font-weight: 600;
+}
+.saldo-first-badge-forgot img {
+  position: relative;
+  bottom: 7px !important;
+  margin-left: 25px;
+  width: 33px;
+}
+.mini-saldo-verde-forgot {
+  background-color: #40c4aa;
+  color: #fff;
+  border-radius: 20px;
+  padding: 1px 10px 5px;
+  height: 28px;
+  position: relative;
+  top: 13px;
+  font-size: 18px;
+}
+.bitcoin-class-forgot {
+  display: flex;
+  position: relative;
+  left: 90px;
+  top: 50px;
+}
+.etherium-class-forgot {
+  display: flex;
+  position: relative;
+  left: 90px;
+  top: 70px;
+}
+.bit-coin-p1-forgot {
+  position: relative;
+  left: 10px;
+  font-weight: 400;
+  z-index: 1;
+  font-size: 18px;
+}
+.eth-coin-p1-forgot {
+  position: relative;
+  left: 10px;
+  font-weight: 400;
+  z-index: 1;
+  font-size: 18px;
+}
+.bit-coin-p2-forgot {
+  position: relative;
+  top: 22px;
+  font-size: 15px;
+  color: #999;
+  font-weight: 200;
+  right: 45px;
+  z-index: 1;
+}
+.eth-coin-p2-forgot {
+  position: relative;
+  top: 22px;
+  font-size: 15px;
+  color: #999;
+  font-weight: 200;
+  right: 65px;
+  z-index: 1;
+}
+.bit-coin-p3-forgot {
+  font-size: 23px;
+  font-weight: 600;
+  position: relative;
+  left: 50px;
+  z-index: 1;
+}
+.eth-coin-p3-forgot {
+  font-size: 23px;
+  font-weight: 600;
+  position: relative;
+  left: 30px;
+  z-index: 1;
+}
+.retcences-forgot {
+  background-color: transparent;
+  border-radius: 40px;
+  width: 65px;
+  height: 65px;
+  position: relative;
+  top: 61px;
+  left: 266px;
+  z-index: 1;
+}
+.retcences-forgot a {
+  text-decoration: none;
+  color: transparent;
+  font-size: 30px;
+  position: absolute;
+  left: 22px;
+  bottom: 11px;
+  z-index: 1;
+}
+.bitcoin-bg-create-1-forgot {
+  background-color: #fff;
+  max-width: 440px;
+  min-width: 425px;
+  height: 140px;
+  border-radius: 20px;
+  position: relative;
+  top: 50px;
+  right: 9%;
+}
+.bit-coin-baba-2-forgot {
+  position: relative;
+  top: 15px;
+  left: 90px;
+}
+.bit-coin-baba-4-forgot {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.bit-coin-baba-5-forgot {
+  position: relative;
+  top: 18px;
+  left: 25px;
+  font-weight: 200;
+  font-size: 13px;
+}
+.bit-coin-baba-6-forgot {
+  color: #40c4aa;
+  font-size: 13px;
+  font-weight: 200;
+  position: relative;
+  top: 18px;
+  left: 40px;
+}
+.bit-coin-baba-7-forgot {
+  position: relative;
+  left: 205px;
+  bottom: 33px;
+  font-size: 12px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 4px 16px;
+}
+.black-arrow-1-forgot {
+  position: relative;
+  bottom: 41px;
+  left: 204px;
+}
+.bit-coin-baba-8-forgot {
+  position: relative;
+  left: 200px;
+  bottom: 33px;
+  font-size: 12px;
+  background-color: #40c4aa;
+  color: #fff;
+  border-radius: 20px;
+  padding: 4px 16px;
+}
+.third-badge {
+  z-index: 1;
+  position: absolute;
+  bottom: 53%;
+  right: 31%;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 190px;
+  height: 150px;
+}
+.erc-twenty {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  border: #821fff 1px solid;
+  border-radius: 30px;
+  width: 120px;
+}
+.erc-twenty img {
+  padding-left: 5px;
+}
+.erc-twenty p {
+  font-weight: 700;
+  font-size: 18px;
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
+.bsc-a-eth {
+  position: relative;
+  top: 25px;
+  left: 15px;
+}
+.zerross {
+  position: relative;
+  top: 25px;
+  left: 15px;
+}
+.binan-img {
+  position: relative;
+  bottom: 5px;
+}
+.text-right-side-forgot h1 {
+  position: relative;
+  top: 120px;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+.text-right-side-forgot p {
+  position: relative;
+  top: 140px;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.illustration {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.illustration img {
+  width: 200px;
+  height: auto;
+}
+
+.darkmode-toggle {
+  position: fixed;
+  top: 13%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.toggle-label {
+  display: block;
+  width: 50px;
+  height: 100px;
+  background-color: var(--bg-light-color);
+  border-radius: 25px;
+  cursor: pointer;
+  position: relative;
+}
+
+.toggle-label:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+.header-nav-bar-content {
+  position: relative;
+  width: 100%;
+}
+input[type='checkbox'] {
+  visibility: hidden;
+}
+
+input[type='checkbox']:checked + .toggle-label:before {
+  transform: translateY(47px);
+}
+.illustration-light {
+  width: 30px !important;
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+}
+.illustration-dark {
+  width: 30px !important;
+  position: relative;
+  right: 10px;
+  top: 35px;
+}
+.menu-bar {
+  background-color: var(--bg-light-color);
+  border-radius: 35px;
+  position: relative;
+  top: 285px;
+  left: 20px;
+  width: 55px;
+  height: 530px;
+}
+.menubar {
+  width: 45px;
+}
+.iconmenu-1 {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  background-color: var(--bg-light-color);
+  padding: 10px;
+  border-radius: 25px;
+}
+.iconmenu-1:hover {
+  background-color: var(--bg-primary-theme-color);
+  transition: 0.3s;
+}
+.iconmenu-2 {
+  position: absolute;
+  top: 75px;
+  left: 5px;
+  background-color: var(--bg-light-color);
+  padding: 10px;
+  border-radius: 25px;
+}
+.iconmenu-2:hover {
+  background-color: var(--bg-primary-theme-color);
+  transition: 0.3s;
+}
+.iconmenu-3 {
+  position: absolute;
+  top: 135px;
+  left: 5px;
+  background-color: var(--bg-light-color);
+  padding: 10px;
+  border-radius: 25px;
+}
+.iconmenu-3:hover {
+  background-color: var(--bg-primary-theme-color);
+  transition: 0.3s;
+}
+.iconmenu-4 {
+  position: absolute;
+  top: 195px;
+  left: 5px;
+  background-color: var(--bg-light-color);
+  padding: 10px;
+  border-radius: 25px;
+}
+.iconmenu-4:hover {
+  background-color: var(--bg-primary-theme-color);
+  transition: 0.3s;
+}
+.iconmenu-5 {
+  position: absolute;
+  top: 255px;
+  left: 5px;
+  background-color: var(--bg-light-color);
+  padding: 10px;
+  border-radius: 25px;
+}
+.iconmenu-5:hover {
+  background-color: var(--bg-primary-theme-color);
+  transition: 0.3s;
+}
+.iconmenu-6 {
+  position: absolute;
+  top: 315px;
+  left: 5px;
+  background-color: var(--bg-light-color);
+  padding: 10px;
+  border-radius: 25px;
+}
+.iconmenu-6:hover {
+  background-color: var(--bg-primary-theme-color);
+  transition: 0.3s;
+}
+.iconmenu-7 {
+  position: absolute;
+  top: 375px;
+  left: 5px;
+  background-color: var(--bg-light-color);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.iconmenu-8 {
+  position: absolute;
+  top: 410px;
+  left: 5px;
+  background-color: var(--bg-light-color);
+  padding: 10px;
+  border-radius: 25px;
+}
+.iconmenu-8:hover {
+  background-color: var(--bg-primary-theme-color);
+  transition: 0.3s;
+}
+.iconmenu-9 {
+  position: absolute;
+  top: 470px;
+  left: 5px;
+  background-color: var(--bg-light-color);
+  padding: 10px;
+  border-radius: 25px;
+}
+.iconmenu-9:hover {
+  background-color: var(--bg-primary-theme-color);
+  transition: 0.3s;
+}
+.log-out-menubar {
+  position: absolute;
+  top: 170%;
+  left: 20px;
+  background-color: var(--bg-light-color);
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+}
+.log-out-menubar img {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+.send-and-receive-btn {
+  background-color: var(--bg-primary-theme-color);
+  border-radius: 30px;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  right: 200px;
+}
+.send-and-receive-btn a {
+  color: var(--bg-light-color);
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.drop-profile-nav {
+}
+
+.notifications-nav-bar-icon {
+  position: absolute;
+  top: 0px;
+  right: 130px;
+}
+.navbar-profile-icon {
+  background-color: var(--bg-light-color);
+  padding: 5px 10px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0px;
+  right: 25px;
+}
+.p-3 {
+  height: 70px;
+}
+.icon-place-logo-nav {
+  position: fixed;
+  left: 30px;
+  top: 25px;
+}
+.lupa-mobile-vision-nav {
+  background-color: var(--bg-light-color);
+  width: 43px;
+  position: relative;
+  right: 100px;
+  padding: 7px;
+  border-radius: 25px;
+  top: 0px;
+}
+.container-dash {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1500px;
+}
+.badge-mybalance-dash {
+  /* background-color: #40c4aa36; */
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.badge-statistcs-dash {
+  background-color: #358877;
+  position: relative;
+  width: 100%;
+  height: 290px;
+}
+.badge-stats-bdg-border {
+  background-color: var(--bg-light-color);
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+  border-radius: 30px;
+}
+.sts-tittle {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.badge-my-balance-dash {
+  position: absolute;
+  opacity: 0.7;
+}
+.dash-content-my-balance {
+  position: absolute;
+  left: 20px;
+  top: 90px;
+}
+.dash-content-bit {
+  position: absolute;
+  left: 20px;
+  top: 160px;
+}
+.dash-content-eth {
+  position: relative;
+  left: 20px;
+  top: 220px;
+}
+.dash-tittle-content-my {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.second-retcences-dash {
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  background-color: var(--bg-light-color);
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+}
+.second-retcences-dash a {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+}
+.deu-green-dash {
+  position: absolute;
+  top: 2px;
+}
+.fast-action-dashboard {
+  background-color: #40c4aa;
+  position: relative;
+  height: 500px;
+}
+.badge-fast-bdg-border {
+  position: relative;
+  background-color: var(--bg-light-color);
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  border-radius: 20px;
+}
+.eth-upper-dash {
+  background-color: var(--bg-light-color);
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+.btc-upper-dash {
+  background-color: var(--bg-light-color);
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+.lower-navbar {
+  position: relative;
+}
+.uppers-dash {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  right: 27%;
+}
+.stats-info-dash {
+  background-color: #ddd;
+  width: 180px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 0;
+  height: 30px;
+  gap: 15px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.btc-upper-dash {
+  padding: 0 15px 5px;
+}
+.btc-upper-dash span {
+  color: #358877;
+}
+.eth-upper-dash {
+  padding: 0 15px 5px;
+}
+.eth-upper-dash span {
+  color: var(--bg-red-darger-color);
+}
+.fst-tittle {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.btn-coin-selection-fast {
+  border-radius: 20px !important;
+  background-color: #ddd !important;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  width: 100px;
+  height: 40px;
+}
+.in-btn-coin-selection-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+}
+.in-btn-coin-selection-icon-span {
+  border: 1px solid #bbb;
+}
+.icon-in-fast-btc {
+  background-color: #000;
+  padding: 8px;
+  border-radius: 20px;
+  position: absolute;
+  right: 63px;
+  top: 2px;
+}
+/* .in-btn-coin-selection-icon span {
+  position: absolute;
+  left: 40px;
+  top: 8px;
+} */
+.arrow-down-btc {
+  position: absolute;
+  top: 8px;
+  left: 80px;
+}
+.uograde-dashboard {
+  background-color: #358877;
+  height: 350px !important;
+}
+.badge-upgrd-bdg-border {
+  position: relative;
+  border-radius: 20px;
+  background: rgb(211, 159, 249);
+  background: linear-gradient(
+    151deg,
+    rgba(211, 159, 249, 0.9290091036414566) 1%,
+    rgba(147, 47, 207, 1) 79%
+  );
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  color: var(--bg-light-color);
+}
+.second-line-dash-main {
+  background-color: #40a4bb;
+  width: 75%;
+  position: relative;
+  bottom: 180px;
+  height: 550px;
+}
+.badge-prpstn-bdg-border {
+  position: absolute;
+  border-radius: 20px;
+  background-color: var(--bg-light-color);
+  height: 95%;
+  width: 98%;
+}
+.proposition-dashboard {
+  display: flex;
+}
+.topic-notfcations {
+  position: absolute;
+  gap: 175px;
+  display: flex;
+  top: 80px;
+  left: 30px;
+}
+
+.company-propose-0 {
+  position: absolute;
+  top: 150px;
+  gap: 180px;
+}
+.company-propose-1 {
+  position: absolute;
+  top: 215px;
+  gap: 180px;
+}
+.company-propose-2 {
+  position: absolute;
+  top: 280px;
+  gap: 180px;
+}
+.company-propose-3 {
+  position: absolute;
+  top: 345px;
+  gap: 180px;
+}
+.company-propose-4 {
+  position: absolute;
+  top: 410px;
+  gap: 180px;
+}
+.company-propose-5 {
+  position: absolute;
+  top: 475px;
+  gap: 180px;
+}
+.negative-balance {
+  display: flex;
+  color: var(--bg-red-darger-color);
+  position: absolute;
+  left: 730px;
+}
+.positive-balance {
+  display: flex;
+  color: #16c65f;
+  position: absolute;
+  left: 730px;
+}
+.grafic-on-propose {
+  position: absolute;
+  left: 470px;
+}
+.grafic-on-propose-chart {
+  position: absolute;
+  left: 450px;
+}
+.trade-btn-propose {
+  display: flex;
+  position: absolute;
+  left: 990px;
+}
+.badge-statistcs-trade {
+  background-color: #358877;
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+.fast-accounts {
+  height: 200px;
+}
+
+.badge-accounts-border {
+  height: 380px;
+}
+.daily-updates {
+  position: relative;
+  top: 180px;
+  background-color: #16c65f;
+}
+.badge-daily-updts {
+  height: 250px;
+}
+.crypt-coins-list-final-bdg {
+  background-color: #16c65f;
+}
+.crypt-list-border {
+  background-color: var(--bg-light-color);
+  border-radius: 30px;
+  width: 95%;
+  height: 250px;
+  margin: 0 0 0 auto;
+}
+.crypt-coins-detail-final-bdg {
+  background-color: #358877;
+}
+.crypt-detail-border {
+  background-color: var(--bg-light-color);
+  border-radius: 20px;
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+}
+.crypt-list-border {
+  position: relative;
+}
+.tittle-market-trade-1 {
+  position: absolute;
+  left: 80px;
+  top: 20px;
+}
+.tittle-market-trade-2 {
+  position: absolute;
+  left: 80px;
+  top: 80px;
+}
+.tittle-market-trade-3 {
+  position: absolute;
+  left: 80px;
+  top: 140px;
+}
+.tittle-market-trade-4 {
+  position: absolute;
+  left: 80px;
+  top: 200px;
+}
+.siglas-title-market-1 {
+  position: absolute;
+  left: 80px;
+  top: 40px;
+  color: #999;
+  font-weight: 200;
+  font-size: 13px;
+}
+.siglas-title-market-2 {
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  color: #999;
+  font-weight: 200;
+  font-size: 13px;
+}
+.siglas-title-market-3 {
+  position: absolute;
+  left: 80px;
+  top: 160px;
+  color: #999;
+  font-weight: 200;
+  font-size: 13px;
+}
+.siglas-title-market-4 {
+  position: absolute;
+  left: 80px;
+  top: 220px;
+  color: #999;
+  font-weight: 200;
+  font-size: 13px;
+}
+.positive-balance-trade-1 {
+  display: flex;
+  color: #16c65f;
+  position: absolute;
+  left: 230px;
+  top: 20px;
+}
+.negative-balance-trade-2 {
+  display: flex;
+  color: #e20f0f;
+  position: absolute;
+  left: 230px;
+  top: 80px;
+}
+.positive-balance-trade-3 {
+  display: flex;
+  color: #16c65f;
+  position: absolute;
+  left: 230px;
+  top: 140px;
+}
+.positive-balance-trade-4 {
+  display: flex;
+  color: #16c65f;
+  position: absolute;
+  left: 230px;
+  top: 200px;
+}
+.value-market-over-1 {
+  position: absolute;
+  right: 25px;
+  font-size: 20px;
+  top: 20px;
+}
+.value-market-over-2 {
+  position: absolute;
+  right: 25px;
+  font-size: 20px;
+  top: 80px;
+}
+.value-market-over-3 {
+  position: absolute;
+  right: 25px;
+  font-size: 20px;
+  top: 140px;
+}
+.value-market-over-4 {
+  position: absolute;
+  right: 25px;
+  font-size: 20px;
+  top: 200px;
+}
+.crypt-list-border li {
+  list-style: none;
+}
+.market-trade-list-1 {
+  position: absolute;
+  top: 15px;
+}
+.market-trade-list-2 {
+  position: absolute;
+  top: 75px;
+}
+.market-trade-list-3 {
+  position: absolute;
+  top: 135px;
+}
+.market-trade-list-4 {
+  position: absolute;
+  top: 195px;
+}
+.wallet-img-balance {
+  width: 400px;
+}
+.buttons-badge-send-receive {
+  position: absolute;
+  top: 270px;
+}
+.sets-wallet-bdge {
+  position: absolute;
+  right: 30px;
+}
+.portifolio-wallet {
+  background-color: #16c65f;
+  position: relative;
+  top: 90px;
+}
+.portifolio-bsg-wallet {
+  background-color: var(--bg-light-color);
+  height: 500px;
+  border-radius: 20px;
+}
+.badges-size-row {
+  width: 1067px;
+  margin: 0;
+  position: relative;
+  left: 12px;
+}
+.market-actvty-wallet {
+  background-color: #40a4bb;
+}
+.market-actvty-wallet-bdg {
+  border-radius: 20px;
+  background-color: var(--bg-light-color);
+  width: 100%;
+  height: 250px;
+  margin: 10px 0;
+}
+.etherium-wallet {
+  background-color: #40c4aa;
+}
+.etherium-wallet-bdg {
+  border-radius: 20px;
+  background-color: var(--bg-light-color);
+  width: 100%;
+  height: 250px;
+  margin: 10px 0;
+}
+.trade-stats-wallet {
+  background-color: #16c65f;
+}
+.trade-stats-wallet-bdg {
+  border-radius: 20px;
+  background-color: var(--bg-light-color);
+  width: 100%;
+  height: 250px;
+  margin: 10px 0;
+}
+.circunflexo-acent {
+  font-size: 40px;
+}
+.wallet-four-side {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+}
+.wallet-stats-dash {
+  height: 250px;
+}
+.big-size-value {
+  font-size: 30px;
+  font-weight: 500;
+}
+.last-line-stast-waalet {
+  position: relative;
+  bottom: 10px;
+}
+.container-wllet-three-cont {
+  position: relative;
+  top: 50px;
+}
+.portif-tittle {
+  display: flex;
+}
+.prtifolio-content-wllt {
+  list-style: none;
+}
+.list-portif-wllt {
+  list-style: none;
+}
+.tag-portifolio-wallet-1 {
+  display: flex;
+  position: relative;
+  top: 40px;
+}
+.tag-portifolio-wallet-2 {
+  display: flex;
+  position: relative;
+  top: 70px;
+}
+.tag-portifolio-wallet-3 {
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+.tag-portifolio-wallet-4 {
+  display: flex;
+  position: relative;
+  top: 130px;
+}
+.tag-portifolio-wallet-5 {
+  display: flex;
+  position: relative;
+  top: 160px;
+}
+.tag-portifolio-wallet-6 {
+  display: flex;
+  position: relative;
+  top: 190px;
+}
+.tittle-portf-wllt {
+  position: absolute;
+  left: 45px;
+}
+.sigla-wllt-port {
+  position: absolute;
+  left: 45px;
+}
+.part-first-wllt {
+  position: absolute;
+  top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+.part-sec-wllt {
+  position: absolute;
+  top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+.part-third-wllt {
+  position: absolute;
+  top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+.part-forth-wllt {
+  position: absolute;
+  top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+.part-fifth-wllt {
+  position: absolute;
+  top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+.part-six-wllt {
+  position: absolute;
+  top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+.portf-wllt-percent {
+  color: #0aab4d;
+  position: absolute;
+  left: 190px;
+}
+.portf-wllt-percent-neg {
+  color: #e20f0f;
+  position: absolute;
+  left: 190px;
+}
+.value-portf-wllt {
+  position: absolute;
+  left: 260px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.analytic-first-container {
+  background-color: #0aab4d;
+  position: relative;
+}
+.analytic-sec-container {
+  background-color: #16c65f;
+  position: relative;
+}
+.alalytic-sec-first-part-bdg {
+  background-color: var(--bg-light-color);
+  border-radius: 30px;
+  display: flex;
+  height: 55px;
+  border: 1px solid #bbb;
+  position: relative;
+  top: 5px;
+}
+.border-purple-analystics {
+  border: 1px solid purple;
+  border-radius: 25px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+.write-analystics-bdg {
+  position: absolute;
+  right: 50px;
+  top: 15px;
+  color: #444;
+  font-weight: 200;
+}
+.alalytic-first-first-part-bdg {
+  background-color: var(--bg-light-color);
+  border-radius: 20px;
+  width: 220px;
+  height: 30px;
+  text-align: center;
+  font-weight: 500;
+  position: absolute;
+  right: 20px;
+  top: 7px;
+}
+.numbers-vol-badge {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.img-union-bdg {
+  background-color: #9fcfda;
+  width: 275px;
+  position: relative;
+}
+.img-union-bdg-cont-one {
+  position: absolute;
+  top: 4px;
+  left: 5px;
+}
+.img-union-bdg-cont-two {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+.border-inside-union-bdg {
+  border-radius: 20px;
+  color: purple;
+  border: 1px solid purple;
+  padding: 0 6px;
+}
+.chart-analytic {
+  background-color: var(--bg-light-color);
+  border-radius: 20px;
+  height: 780px;
+  width: 99%;
+  position: relative;
+}
+.badge-analytic-one {
+  position: absolute;
+  top: 90px;
+  background-color: var(--bg-light-color);
+  width: 95%;
+  border-radius: 20px;
+  height: 150px;
+}
+.bit-coin-analytic-0 {
+  position: absolute;
+  bottom: 0;
+  left: 287px;
+  z-index: 1;
+}
+.bit-coin-analytic-1 {
+  position: absolute;
+  bottom: 25px;
+  left: 380px;
+}
+.bit-coin-analytic-2 {
+  position: absolute;
+  bottom: 0;
+  left: 400px;
+}
+.bit-chrat-analytic {
+  position: absolute;
+  left: 330px;
+}
+.badge-analytic-two {
+  position: absolute;
+  top: 260px;
+  background-color: var(--bg-light-color);
+  width: 95%;
+  border-radius: 20px;
+  height: 150px;
+}
+.badge-analytic-three {
+  position: absolute;
+  top: 430px;
+  background-color: var(--bg-light-color);
+  width: 95%;
+  border-radius: 20px;
+  height: 150px;
+}
+.badge-analytic-four {
+  position: absolute;
+  top: 600px;
+  background-color: var(--bg-light-color);
+  width: 95%;
+  border-radius: 20px;
+  height: 150px;
+}
+.badge-analytic-five {
+  position: absolute;
+  top: 770px;
+  background-color: var(--bg-light-color);
+  width: 95%;
+  border-radius: 20px;
+  height: 150px;
+}
+.bit-coin-analytic-0-ada {
+  position: absolute;
+  bottom: 0;
+  left: 313px;
+}
+.bit-coin-analytic-0-sol {
+  position: absolute;
+  bottom: 0;
+  left: 330px;
+}
+.bit-coin-red-forgot {
+  color: var(--bg-red-darger-color);
+}
+.bit-coin-analytic-red {
+  background-color: var(--bg-red-darger-color);
+  position: absolute;
+  bottom: 0;
+  left: 430px;
+}
+.bit-coin-analytic-green {
+  position: absolute;
+  bottom: 0;
+  left: 420px;
+}
+.bit-coin-analytic-0-bnb {
+  position: absolute;
+  bottom: 0;
+  left: 347px;
+}
+.bit-coin-analytic-eth {
+  position: absolute;
+  bottom: 0;
+  left: 420px;
+}
+.bit-coin-analytic-ada {
+  position: absolute;
+  bottom: 0;
+  left: 410px;
+}
+.bit-chrat-analytic-sec {
+  position: absolute;
+  left: 390px;
+}
+.arrow-with-ball-eth {
+  position: absolute;
+  bottom: 25px;
+  left: 400px;
+}
+.arrow-with-ball-bnb {
+  position: absolute;
+  bottom: 25px;
+  left: 410px;
+}
+.arrow-with-ball-sol {
+  position: absolute;
+  bottom: 25px;
+  left: 400px;
+}
+.arrow-with-ball-ada {
+  position: absolute;
+  bottom: 25px;
+  left: 390px;
+}
+.bit-coin-analytic-blc-eth {
+  position: absolute;
+  bottom: 0;
+  left: 336px;
+}
+.canvas {
+  max-width: 800px;
+  max-height: 400px;
+}
+.blck-btn-fast-action {
+  background-color: var(--bg-dark-color);
+  padding: 5px 25px;
+  border-radius: 20px;
+  color: var(--bg-light-color);
+  width: 90%;
+  position: absolute;
+  left: 17px;
+  bottom: 20px;
+}
+.pay-with-modal-content {
+  display: flex;
+  border: purple 1.3px solid;
+  border-radius: 10px;
+  background-color: #eeeeeeab;
+  width: 90%;
+  position: absolute;
+  bottom: 85px;
+  left: 17px;
+  height: 70px;
+}
+.placeholder-pay-with {
+  border: none;
+  background-color: transparent;
+  width: 100px;
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  top: 15px;
+}
+.placeholder-pay-with::placeholder {
+  color: #000;
+}
+.pay-with-modal-content-img {
+  width: 25px;
+  margin: 10px 12px 0;
+}
+.pay-with-write-p {
+  color: #888;
+  font-weight: 3s00;
+  font-size: 14px;
+  padding: 5px 0 0;
+}
+.pay-with-write-s {
+  font-size: 20px;
+}
+.min-max-btns {
+  position: absolute;
+  bottom: 170px;
+}
+.min-max-btns-min {
+  position: absolute;
+  height: 30px !important;
+  left: 20px;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 30px;
+}
+.min-max-btns-twe {
+  position: relative;
+  left: 97px;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 30px;
+}
+.min-max-btns-sevn {
+  position: absolute;
+  left: 180px;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 30px;
+}
+.min-max-btns-max {
+  position: absolute;
+  left: 260px;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 30px;
+}
+.fast-action-bgd-up {
+  background-color: #eeeeeeb7;
+  width: 90%;
+  height: 70px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 0 0;
+  color: #555;
+  position: absolute;
+  top: 120px;
+  left: 17px;
+}
+.fast-action-bgd-up-placeholder {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  margin-top: 1px;
+  width: 150px;
+}
+.fast-action-bgd-up-placeholder::placeholder {
+  font-size: 25px;
+  padding-left: 95px;
+  position: relative;
+  top: 2px;
+  color: #000;
+}
+.fast-action-bgd-middle {
+  position: absolute;
+  left: 40px;
+  top: 175px;
+  z-index: 1;
+}
+.fast-action-bgd-down {
+  background-color: #eeeeeeb7;
+  width: 90%;
+  height: 70px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 0 0;
+  color: #555;
+  position: absolute;
+  bottom: 210px;
+  left: 17px;
+}
+.fast-action-bgd-down-placeholder {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  margin-top: 1px;
+}
+.fast-action-bgd-down-placeholder::placeholder {
+  font-size: 25px;
+  padding-left: 55px;
+  position: relative;
+  top: 2px;
+  color: #000;
+}
+.up-now-btn {
+  background-color: var(--bg-light-color);
+  width: 90%;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  left: 17px;
+  bottom: 20px;
+}
+.one-btc-iqual {
+  position: absolute;
+  left: 140px;
+  top: 75px;
+}
+.total-investments-stats {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+}
+.badge-upgrd-bdg-tittle {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+.badge-upgrd-bdg-subtittle {
+  position: absolute;
+  top: 90px;
+  left: 40px;
+}
+.trade-btn-propose {
+  background-color: #670dd620;
+  color: #821fff;
+  border-radius: 20px;
+  padding: 5px;
+  border: none;
+  font-size: 13px;
+}
+.proposition-sort-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+}
+.proposition-dashboard-tittle {
+  padding: 15px 0 0 15px;
+}
+.perform-tittle-div {
+  display: flex;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+.perform-tittle {
+  font-size: 25px;
+  font-weight: 600;
+}
+.perform-sectittle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #821fff;
+  position: relative;
+  top: 6px;
+  left: 5px;
+}
+.crypto-chart-trade {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+.perform-chart-stats {
+  position: absolute;
+  right: 20px;
+  top: 65px;
+}
+.accounts-trade-bagde-one {
+  border: 1px solid #bbb;
+  border-radius: 10px;
+}
+.accounts-trade-bagde-two {
+  border: 1px solid #bbb;
+  border-radius: 10px;
+}
